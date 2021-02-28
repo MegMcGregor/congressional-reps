@@ -1,8 +1,21 @@
+
+.cooper-image {
+    width: auto;
+    margin: 20px;
+}
+
 img {
-    display: flex;
-    justify-content: flex-start;
+    width:fit-content;
     width: 30%;
-    height: auto;
+}
+
+main {
+	margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 header {
@@ -17,16 +30,12 @@ body {
     margin: 0;
 }
 
-.comittees {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}
-
-.legislation {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+.info {
+    background-color: bisque;
+    float:right;
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
 }
 
 footer {
